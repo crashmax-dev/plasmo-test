@@ -1,8 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@plasmohq/permission-ui': ^0.0.5
-  '@plasmohq/storage': ^0.6.0
   '@trivago/prettier-plugin-sort-imports': 3.2.0
   '@types/chrome': 0.0.190
   '@types/node': 17.0.43
@@ -15,9 +13,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
-  '@plasmohq/permission-ui': 0.0.5_react@18.2.0
-  '@plasmohq/storage': 0.6.0_react@18.2.0
-  plasmo: 0.43.7
+  plasmo: 0.44.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -75,11 +71,11 @@ packages:
       source-map: 0.5.7
     dev: true
 
-  /@babel/generator/7.18.6:
-    resolution: {integrity: sha512-AIwwoOS8axIC5MZbhNHRLKi3D+DMpvDf9XUcu3pIVAfOHFT45f4AoDAltRbHIQomCipkCZxrNkfpOEHhJz/VKw==}
+  /@babel/generator/7.18.7:
+    resolution: {integrity: sha512-shck+7VLlY72a2w9c3zYWuE1pwOKEiQHV7GTUbSnhyl5eu3i04t30tBY82ZRWrDfo3gkakCFtevExnxbkf2a3A==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
       '@jridgewell/gen-mapping': 0.3.2
       jsesc: 2.5.2
     dev: true
@@ -93,7 +89,7 @@ packages:
       '@babel/compat-data': 7.18.6
       '@babel/core': 7.13.10
       '@babel/helper-validator-option': 7.18.6
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       semver: 6.3.0
     dev: true
 
@@ -107,21 +103,21 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/template': 7.18.6
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/helper-hoist-variables/7.18.6:
     resolution: {integrity: sha512-UlJQPkFqFULIcyW5sbzgbkxn2FKRgwWiRexcuaR8RNJRy8+LLveqPjwZV/bwrLZCN0eUHD/x8D0heK1ozuoo6Q==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/helper-module-imports/7.18.6:
     resolution: {integrity: sha512-0NFvs3VkuSYbFi1x2Vd6tKrywq+z/cLeYC/RJNFrIX/30Bf5aiGYbtvGXolEktzJH8o5E5KJ3tT+nkxuuZFVlA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/helper-module-transforms/7.18.6:
@@ -135,7 +131,7 @@ packages:
       '@babel/helper-validator-identifier': 7.18.6
       '@babel/template': 7.18.6
       '@babel/traverse': 7.18.6
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -144,14 +140,14 @@ packages:
     resolution: {integrity: sha512-iNpIgTgyAvDQpDj76POqg+YEt8fPxx3yaNBg3S30dxNKm2SWfYhD0TGrK/Eu9wHpUW63VQU894TsTg+GLbUa1g==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/helper-split-export-declaration/7.18.6:
     resolution: {integrity: sha512-bde1etTx6ZyTmobl9LLMMQsaizFVZrquTEHOqKeQESMKo4PlObf+8+JA25ZsIpZhT/WEd39+vOdLXAFG/nELpA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/helper-validator-identifier/7.18.6:
@@ -169,7 +165,7 @@ packages:
     dependencies:
       '@babel/template': 7.18.6
       '@babel/traverse': 7.18.6
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -195,7 +191,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/runtime/7.18.6:
@@ -211,7 +207,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.18.6
       '@babel/parser': 7.18.6
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
     dev: true
 
   /@babel/traverse/7.13.0:
@@ -235,13 +231,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.18.6
+      '@babel/generator': 7.18.7
       '@babel/helper-environment-visitor': 7.18.6
       '@babel/helper-function-name': 7.18.6
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
       '@babel/parser': 7.18.6
-      '@babel/types': 7.18.6
+      '@babel/types': 7.18.7
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
@@ -256,8 +252,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@babel/types/7.18.6:
-    resolution: {integrity: sha512-NdBNzPDwed30fZdDQtVR7ZgaO4UKjuaQFH9VArS+HMnurlOY0JWN+4ROlu/iapMFwjRQU4pOG4StZfDmulEwGA==}
+  /@babel/types/7.18.7:
+    resolution: {integrity: sha512-QG3yxTcTIBoAcQmkCs+wAPYZhu7Dk9rXKacINfNbdJDNERTbLQbHGyVG8q/YGMPeCJRIhSY0+fTc5+xuh6WPSQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.18.6
@@ -567,7 +563,7 @@ packages:
       '@parcel/workers': 2.6.1_@parcel+core@2.6.1
       abortcontroller-polyfill: 1.7.3
       base-x: 3.0.9
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       clone: 2.1.2
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
@@ -597,7 +593,7 @@ packages:
       '@parcel/workers': 2.6.2_@parcel+core@2.6.2
       abortcontroller-polyfill: 1.7.3
       base-x: 3.0.9
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       clone: 2.1.2
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
@@ -855,7 +851,7 @@ packages:
       '@parcel/plugin': 2.6.1_@parcel+core@2.6.1
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.6.1
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -1144,7 +1140,7 @@ packages:
       '@parcel/plugin': 2.6.1_@parcel+core@2.6.1
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.6.1
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       json5: 2.2.1
       nullthrows: 1.1.1
       semver: 5.7.1
@@ -1161,7 +1157,7 @@ packages:
       '@parcel/plugin': 2.6.1_@parcel+core@2.6.1
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.6.1
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -1217,7 +1213,7 @@ packages:
       '@parcel/utils': 2.6.1
       '@parcel/workers': 2.6.1_@parcel+core@2.6.1
       '@swc/helpers': 0.4.3
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.9
@@ -1428,6 +1424,10 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
+  /@plasmohq/init/0.0.2:
+    resolution: {integrity: sha512-/YO8TBQh6nDfDdzkb357HXXzWwGDWQXeYukH95yu0mmZGcTsNsoANyyFXIwafyLqX7N3v6chHOABw7ku+5FrjA==}
+    dev: false
+
   /@plasmohq/parcel-bundler/0.0.1_@parcel+core@2.6.1:
     resolution: {integrity: sha512-zPAsL8k0Qyl9B6YUyWWwvlG7/osAyyuemgvwHikbL4nntaomuuZseXpV4wKZr09Fl7hE77AQorKxeCHZOn9iww==}
     engines: {node: '>= 16.0.0', parcel: '>= 2.6.0'}
@@ -1482,23 +1482,6 @@ packages:
       '@parcel/plugin': 2.6.1_@parcel+core@2.6.1
     transitivePeerDependencies:
       - '@parcel/core'
-    dev: false
-
-  /@plasmohq/permission-ui/0.0.5_react@18.2.0:
-    resolution: {integrity: sha512-V6zmqi9mQcceqomeKtlFUm/BMo7hAnVtAkx9/O0ZT2LwfuO0t26lgVt6RdRMaadCa44hDat3/adheX1WIzIwLQ==}
-    hasBin: true
-    peerDependencies:
-      react: '>=17 || >=18'
-    dependencies:
-      react: 18.2.0
-    dev: false
-
-  /@plasmohq/storage/0.6.0_react@18.2.0:
-    resolution: {integrity: sha512-1xMyHXWiLFjbDJTCs3A9ogLHLOaalO0IMBiL30+nw6VZ9Vxqf9rxQsL9apXlFXa7FquOnJGWx3ZNnhRXxy+zRw==}
-    peerDependencies:
-      react: ^16.8.6 || ^17 || ^18
-    dependencies:
-      react: 18.2.0
     dev: false
 
   /@sindresorhus/is/4.6.0:
@@ -1748,15 +1731,15 @@ packages:
       concat-map: 0.0.1
     dev: false
 
-  /browserslist/4.21.0:
-    resolution: {integrity: sha512-UQxE0DIhRB5z/zDz9iA03BOfxaN2+GQdBYH/2WrSIWEUrnpzTPJbhqt+umq6r3acaPRTW1FNTkrcp0PXgtFkvA==}
+  /browserslist/4.21.1:
+    resolution: {integrity: sha512-Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001359
+      caniuse-lite: 1.0.30001361
       electron-to-chromium: 1.4.172
       node-releases: 2.0.5
-      update-browserslist-db: 1.0.4_browserslist@4.21.0
+      update-browserslist-db: 1.0.4_browserslist@4.21.1
 
   /buffer-crc32/0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
@@ -1810,8 +1793,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /caniuse-lite/1.0.30001359:
-    resolution: {integrity: sha512-Xln/BAsPzEuiVLgJ2/45IaqD9jShtk3Y33anKb4+yLwQzws3+v6odKfpgES/cDEaZMLzSChpIGdbOYtH9MyuHw==}
+  /caniuse-lite/1.0.30001361:
+    resolution: {integrity: sha512-ybhCrjNtkFji1/Wto6SSJKkWk6kZgVQsDq5QI83SafsF6FXv2JB4df9eEdH6g8sdGgqTXrFLjAxqBGgYoU3azQ==}
 
   /canny-edge-detector/1.0.0:
     resolution: {integrity: sha512-SpewmkHDE1PbJ1/AVAcpvZKOufYpUXT0euMvhb5C4Q83Q9XEOmSXC+yR7jl3F4Ae1Ev6OtQKbFgdcPrOdHjzQg==}
@@ -3082,13 +3065,14 @@ packages:
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
-  /plasmo/0.43.7:
-    resolution: {integrity: sha512-OkmlWPsStXGfrLpJrqa4GBi+T7UGdK7on0OxvlsmPCY5/BnCoIB4yiunVaO9st01zsqhd64kF2aKKzqKIn4AhQ==}
+  /plasmo/0.44.0:
+    resolution: {integrity: sha512-uIvVjCYSY+cDd2T/RXnwkmYj4fAAfkxuDnPlhEimY9R8EqJZx6230n3rfamcQq5Md72mR6+BqR9hmj/EpVFMeQ==}
     hasBin: true
     dependencies:
       '@expo/spawn-async': 1.6.0
       '@parcel/core': 2.6.2
       '@parcel/watcher': 2.0.5
+      '@plasmohq/init': 0.0.2
       '@plasmohq/parcel-config': 0.0.2
       archiver: 5.3.1
       buffer: 6.0.3
@@ -3523,13 +3507,13 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  /update-browserslist-db/1.0.4_browserslist@4.21.0:
+  /update-browserslist-db/1.0.4_browserslist@4.21.1:
     resolution: {integrity: sha512-jnmO2BEGUjsMOe/Fg9u0oczOe/ppIDZPebzccl1yDWGLFP16Pa1/RM5wEoKYPG2zstNcDuAStejyxsOuKINdGA==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       escalade: 3.1.1
       picocolors: 1.0.0
 

@@ -4,14 +4,11 @@
   "version": "0.0.0",
   "description": "A basic Plasmo extension.",
   "author": "crashmax",
-  "packageManager": "pnpm@7.3.0",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build"
   },
   "dependencies": {
-    "@plasmohq/permission-ui": "^0.0.5",
-    "@plasmohq/storage": "^0.6.0",
     "plasmo": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -28,9 +25,6 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
-    ],
-    "permissions": [
-      "tabs"
     ]
   }
 }
