@@ -1,11 +1,14 @@
+import { ChakraProvider } from '@chakra-ui/react'
 import { MemoryRouter } from 'react-router-dom'
 import { AppRoutes } from './routes'
 
 function NewTab() {
   return (
-    <MemoryRouter>
-      <AppRoutes />
-    </MemoryRouter>
+    <ChakraProvider>
+      <MemoryRouter>
+        <AppRoutes />
+      </MemoryRouter>
+    </ChakraProvider>
   )
 }
 

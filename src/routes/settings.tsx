@@ -1,4 +1,5 @@
-import { useNavigate } from "react-router-dom"
+import { Button } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 
 export function SettingsPage() {
   const navigate = useNavigate()
@@ -6,7 +7,7 @@ export function SettingsPage() {
   return (
     <div>
       <h1>settings</h1>
-      <button onClick={() => navigate('/')}>home</button>
+      <Button onClick={() => navigate('/')}>Home</Button>
     </div>
   )
 }
